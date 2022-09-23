@@ -1,0 +1,28 @@
+
+textarea {
+    height: 130px;
+    display: block;
+    width: 75%;
+    padding: 0 20px 0 20px;
+    border: 1px solid #F9B500;
+    border-radius: 3px;
+}
+/*.mtb-50{
+	margin-left: 15px;
+}*/
+
+button[name="sendData"]{
+	display:block;
+    position: absolute;
+    text-align: center;
+    background: #F9B500;
+    color: #000;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+button[name="sendData"]:hover {
+  background-color: #000;
+  color: #F9B500;
+}
+

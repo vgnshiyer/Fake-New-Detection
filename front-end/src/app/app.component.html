@@ -1,0 +1,77 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <mat-toolbar>
+  <button mat-button routerLink="/">Fake News Detection</button>
+  <span class="example-spacer"></span>
+  <button mat-button routerLink="/register">Register</button>
+  <button mat-button routerLink="/login">Login</button>
+  <button mat-button>Logout</button>
+</mat-toolbar>-->
+<header>
+		<div class="bg-191">
+			<div class="container">	
+				<div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
+				
+					<ul class="float-left float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-10">
+						<li><a class="pl-0 pl-sm-10" routerLink="/aboutus">About</a></li>
+						<li><a href="#">Advertise</a></li>
+						<li><a href="#">Submit Press Release</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<ul class="float-right float-sm-none list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-5">
+						<li><a class="pl-0 pl-sm-10" href="#" style="font-size: 13px;"><i class="ion-social-facebook"></i></a></li>
+						<li><a href="#" style="font-size: 13px;"><i class="ion-social-twitter"></i></a></li>
+						<li><a href="#" style="font-size: 13px;"><i class="ion-social-google"></i></a></li>
+						<li><a href="#" style="font-size: 13px;"><i class="ion-social-instagram"></i></a></li>
+					</ul>
+					
+				</div><!-- top-menu -->
+			</div><!-- container -->
+		</div><!-- bg-191 -->
+		
+		<div class="container">
+			<a class="logo" routerLink="/"><img src="../assets/images/logo-black.png" alt="Logo"></a>
+			
+			<a class="right-area src-btn" href="#" >
+				<i class="active src-icn ion-search"></i>
+				<i class="close-icn ion-close"></i>
+			</a>
+			<div class="src-form">
+				<form>
+					<input type="text" placeholder="Search here">
+					<button type="submit"><i class="ion-search"></i></button>
+				</form>
+			</div><!-- src-form -->
+			
+			<!-- <a class="menu-nav-icon" data-menu="#main-menu" onclick="myFunction()"><i class="ion-navicon"></i></a -->
+			<a href="javascript:void(0);" class="icon menu-nav-icon" onclick="myFunction()">
+		   		<i class="ion-navicon"></i>	
+			</a>
+			<div class="lodu" id="lodu">
+				<br>
+				<br>
+				<br>
+			</div>
+			<!-- <a class="menu-nav-icon" data-menu="#main-menu"></a> -->
+			  <div class="topnav">
+				  <div id="myLinks">
+				    <a routerLink='/' onclick="myFunction1()">NEWS</a>
+				    <a routerLink='/news' onclick="myFunction1()">F-INDICATOR</a>
+				    <a routerLink="/recent" onclick="myFunction1()">RECENT</a>
+				    <a routerLink="/faq" onclick="myFunction1()">FAQ</a>
+				  </div>
+			  </div>
+
+			<ul class="main-menu" id="main-menu">
+				<li><a routerLink="/">NEWS</a></li>
+				<li><a routerLink="/news">F-INDICATOR</a></li>
+				<li><a routerLink="/recent">RECENT</a></li>
+				<li><a routerLink="/faq">FAQ</a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</div><!-- container -->
+	</header>
+
+
+<router-outlet></router-outlet>
+
+

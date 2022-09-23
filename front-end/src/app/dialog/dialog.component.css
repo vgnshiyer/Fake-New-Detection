@@ -1,0 +1,33 @@
+.close{
+  outline:none;
+}
+
+.dial {
+    margin-left: 70px;
+}
+
+@media only screen and (max-width: 575px){
+	.dial{
+		margin-left: -30px;
+		width: 381px;
+	}
+}
+
+@media only screen and (max-width: 359px){
+	.dial{
+		margin-left: -30px;
+		width: 381px;
+	}
+}
+
+@media only screen and (min-width: 767px){
+	.dial{
+		margin-left: 75px;
+	}
+}
+
+@media only screen and (min-width: 992px){
+	.dial{
+		margin-left: 70px;
+	}
+}

@@ -1,0 +1,38 @@
+/*.mtb-50{
+	margin-left: 15px;
+}*/
+
+button{
+	outline: none;
+	height: 0px;
+}
+
+.ml-120 {
+    margin-left: 120px!important;
+    width: 100%;
+}
+
+.col-md-6 {
+    padding-top: 46px;
+}
+
+@media only screen and (max-width: 575px){
+	.dixit{
+		width: 70%;
+	}
+	.p-title{
+		margin-left: 12px;
+		width: 132%;
+	}
+}
+
+@media only screen and (max-width: 359px){
+	.dixit{
+		width: 70%;
+	}
+	.p-title{
+		margin-left: 12px;
+		width: 132%;
+
+	}
+}

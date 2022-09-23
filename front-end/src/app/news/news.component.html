@@ -1,0 +1,49 @@
+<br>
+<div class="container">
+  <div class="mtb-50 mb-md-0">
+                <h4 class="p-title"><b>FakeNewsDetector</b></h4>
+                <h5><p class="mb-20">Explore how Machine Learning can be leveraged to combat Fake News..</p></h5>
+                <p class="mb-20">This product demonstrates the use of different Artificial Intelligence technologies, purely Machine Learning and Natural Language Processing to alleviate the problem of Fake News in social media by determining if a story is real or hoax.</p>
+                <p class="mb-20">This may not be completeley reliable per se as checking the veracity of a news story is a complex and cumbersome procedure, even for trained experts. So, with the assistance of a real-life human fact checking,human judgement and some reasoning skills, this product would yeild remarkable results.
+                <form class="nwsltr-primary-1">
+                  <textarea type="text" [(ngModel)]="postNews" name="description" placeholder="Add News"></textarea>
+                  <!-- <button type="submit"><i class="ion-ios-paperplane"></i></button> -->
+                </form>
+                <br>
+                <button name="sendData" class="ion-ios-search" (click)="post()" mat-raised-button color="primary">Check News</button>
+  </div>
+</div>
+<div>
+  <br>
+</div>
+<!-- .nwsltr-primary-1 input {
+    height: 45px;
+    display: block;
+    width: 75%;
+    padding: 0 20px 0 20px;
+    border: 1px solid #F9B500;
+} -->
+<!--
+<br>
+ --><!-- <mat-card>
+  <h4>Recently viewed</h4>
+</mat-card>
+<br>
+  <mat-card>
+    <mat-card *ngFor="let spaceScreen of spaceScreens; let i = index">
+      <img md-card-image src="{{ spaceScreen.img }}" width='250' height='170'>
+      <mat-card-content>
+        <p>{{ spaceScreen.description }}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="primary" href="https://www.ndtv.com/india-news/told-assam-citizens-list-internal-issue-keeping-eyes-open-bangladesh-2112476">
+            <i class="material-icons md-18">language</i> View Full content
+        </button>
+        <button mat-raised-button color="primary" >
+            <i class="material-icons md-18">delete</i> Remove 
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-card> -->
+
+

@@ -1,0 +1,31 @@
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  display: inline-table;
+  margin-right: 60px;
+  width: 256px;
+  margin-bottom: 10px;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  display: inline-table;
+  margin-right: 60px;
+  width: 256px;
+  margin-bottom: 10px;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  display: inline-table;
+  width: 256px;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}

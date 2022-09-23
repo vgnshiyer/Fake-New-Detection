@@ -1,0 +1,61 @@
+
+<mat-dialog-content class="dial" >
+    <div class="mtb-50 mb-md-0">
+      <h4 class="p-title"><b>Results:</b></h4>
+    </div>
+    <span *ngIf="data.fake == '3' || data.fake == '1'">
+      <div class="popup" class="overlay">
+        <h2 style="color: red;">FAKE!!</h2>
+        <div class="content">
+          <h3>{{data.news}} is probably not a reliable news</h3>
+        </div>
+      </div>
+      <mat-dialog-actions>
+          <button mat-button class="close" [mat-dialog-close]="true">&times;</button>
+      </mat-dialog-actions>
+    </span>
+    <span *ngIf="data.fake == '2' || data.fake == '0'">
+      <div class="popup" class="overlay">
+        <h2 style="color: #F9B500;">REAL!</h2>
+        <div class="content">
+          <h3>{{data.news}} is probably a reliable news</h3>
+        </div>
+      </div>
+      <mat-dialog-actions>
+          <button mat-button class="close" [mat-dialog-close]="true">&times;</button>
+      </mat-dialog-actions>
+    </span>
+    <span *ngIf="data.fake == '-1'">
+      <div class="popup" class="overlay">
+        <h2 style="color: red;">INVALID INPUT!</h2>
+        <div class="content">
+          <h3>{{data.news}} is not a news content.Please enter a valid input.</h3>
+        </div>
+      </div>
+      <mat-dialog-actions>
+          <button mat-button class="close" [mat-dialog-close]="true">&times;</button>
+      </mat-dialog-actions>
+    </span>
+</mat-dialog-content>
+<!-- <mat-dialog-content>
+
+  <span *ngIf="data.fake == '3' || data.fake == '1'">
+      <h1 style="text-align:center;"> <mat-icon style="color:red;">error</mat-icon>FAKE !!</h1>
+  <h3>{{data.news}} is probably not a reliable news</h3>
+  </span>
+
+  <span *ngIf="data.fake == '2' || data.fake == '0'">
+      <h1 style="text-align:center;"><mat-icon style="color:lawngreen;">check_box</mat-icon>REAL !!</h1>
+  <h3>{{data.news}} is probably a reliable news</h3>
+  </span>
+
+  <span *ngIf="data.fake == '-1'">
+      <h1 style="text-align:center;"><mat-icon style="color:red;">check_box</mat-icon>INVALID INPUT!</h1>
+  <h3>{{data.news}} is not a news content.Please enter a valid input.</h3>
+  </span>
+</mat-dialog-content>
+
+
+<mat-dialog-actions>
+<button mat-button [mat-dialog-close]="true">CONFIRM</button>
+</mat-dialog-actions> -->
